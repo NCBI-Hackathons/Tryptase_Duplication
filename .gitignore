@@ -1,0 +1,17 @@
+*jobs/
+databases/
+test_grid
+test_data
+myvenv/
+*results/
+logs/
+*.csv
+*.fai
+*.nhr
+*.nin
+*.nog
+*.nsd
+*.nsi
+*.nsq
+databases/*
+blast_dbs/
