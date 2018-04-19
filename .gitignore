@@ -16,3 +16,4 @@ logs/
 databases/*
 blast_dbs/
 hisat/
+subread-1.6.1-source/

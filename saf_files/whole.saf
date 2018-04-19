@@ -1,0 +1,4 @@
+GeneID	Chr	Start	End	Strand
+1	Alpha_GEX_64k_HEX	1	266	-
+2	Alpha_GEX_79k_dup_FAM	1	266	-
+3	BETA_new_GEX_FAM	1	266	-
