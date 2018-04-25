@@ -62,6 +62,6 @@ mkdir $JOBS_DIR/
 for i in $( cat $ACC_FILE ); do
 
   cp $TEMPLATE $JOBS_DIR/job_$i.sh
-  echo "magicblast -db $BLAST_DB -sra $i -no_unaligned -num_threads $THREADS -out $OUT_DIR/$COMMENT.$i.sam" >> $JOBS_DIR/job_$i.sh
+  echo "magicblast -db $BLAST_DB -sra $i -no_unaligned  -reftype transcriptome -num_threads $THREADS -out $OUT_DIR/$COMMENT.$i.sam" >> $JOBS_DIR/job_$i.sh
 
 done

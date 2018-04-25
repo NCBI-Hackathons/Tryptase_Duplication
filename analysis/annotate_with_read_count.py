@@ -21,7 +21,7 @@ def get_srr_accession(df):
     Extract the SRR number from the file_location field of the dataframe.
 
     """
-    pattern = re.compile(r"[SE]RR[0-9]+")
+    pattern = re.compile(r"[SDE]RR[0-9]+")
 
     file = df['file_location']
 
@@ -97,6 +97,8 @@ def get_spot_count(df, email, max_errors):
             time.sleep(10)
 
             error_count = error_count +1
+
+    return 1
 
 # Load CSV
 df = pd.read_csv(args.input_csv[0], index_col=0)
