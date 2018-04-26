@@ -135,6 +135,13 @@ The location of the result CSV(s) can be updated at the top of the notebooks.
 
 ## Results
 
+### Comparison of AML and Geuvadis Controls
+
+### Comparison of AML, Dengue, Sepsis, CML and larger control group.
+
+### TPSAB1 Dup / TPSAB1 WT Ratio
+
+### Misc
 
 
 
