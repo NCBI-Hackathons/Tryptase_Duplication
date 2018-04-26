@@ -50,4 +50,4 @@ command = ("python annotate_with_read_count.py --input_csv {input} "
             max_errors=args.max_errors[0])
 
 print (command)
-#os.system(command)
+os.system(command)
