@@ -17,3 +17,5 @@ databases/*
 blast_dbs/
 hisat/
 subread-1.6.1-source/
+gene_expression/data/
+sample_expression_matrix.csv
